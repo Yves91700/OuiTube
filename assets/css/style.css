@@ -1,3 +1,15 @@
-header{
-    background-color:red;
+header .header-icon  {
+    padding-left: 10px;
+}
+
+header .header-top-center input{
+    width: 80%;
+}
+
+header .header-top-right a{
+    width: 70%;
+}
+
+header .header-top-right{
+    padding-right: 40px;
 }
