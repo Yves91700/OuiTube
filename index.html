@@ -5,65 +5,304 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/css/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <title>OuiTube</title>
-    <link rel="shortcut icon" href="/assets/images-youtube/logo/YouTube-icon.png" type="image/x-icon"> 
+    <link
+      rel="shortcut icon"
+      href="/assets/images-youtube/logo/YouTube-icon.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <header>
-        <div class="header-top box flex">
-            <div class="header-top-left flex-1 flex flex-center-v">
-                <div class="header-icon" id="collapse">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <a href="#">
-                    <div class="logo flex flex-1 flex-center-h flex-center-v ">
-                        <img src="/assets/images-youtube/logo/youtube-icon -77x77.png" alt="logo OuiTube">
-                        <p>OuiTube</p>
-                    </div>
-                </a>
+      <div class="header-top box flex">
+        <div class="header-top-left flex-1 flex flex-center-v">
+          <div class="header-icon" id="collapse">
+            <i class="fas fa-bars"></i>
+          </div>
+          <a href="#">
+            <div class="logo flex flex-1 flex-center-h flex-center-v">
+              <img
+                src="/assets/images-youtube/logo/youtube-icon -77x77.png"
+                alt="logo OuiTube"
+              />
+              <p>OuiTube</p>
             </div>
-            <div class="header-top-center flex-3 flex flex-center-v flex-center-h">
-                <input type="search" placeholder="Rechercher">
-                <i class="fa-solid fa-magnifying-glass icon"></i>
-            </div>
-            <div class="header-top-right flex-1 flex flex-center-v flex-center-h">
-                <a href="#"></a><i class="fa-solid fa-bell"></i>
-                <a href="#"></a><i class="fa-solid fa-circle-arrow-up"></i>
-                <a href="#"></a><i class="fa-solid fa-circle-user"></i>
-            </div>
+          </a>
         </div>
-        <nav class="header-left fixed box" id="menu">
-           <ul>
-               <li><a href="#">Accueil</a></li>
-               <li><a href="#">Bibliothèque</a></li>
-               <li><a href="#">Compte</a></li>
-               <li><a href="#">Vidéos</a></li>
-               <li><a href="#">Mettre en ligne</a></li>
-               <li><a href="#">Se connecter</a></li>
-               <li><a href="#">S'inscrire</a></li>
-           </ul> 
-        </nav>
+        <div class="header-top-center flex-3 flex flex-center-v flex-center-h">
+          <input type="search" placeholder="Rechercher" />
+          <i class="fa-solid fa-magnifying-glass icon"></i>
+        </div>
+        <div class="header-top-right flex-1 flex flex-center-v flex-center-h">
+          <a href="#"></a><i class="fa-solid fa-bell"></i> <a href="#"></a
+          ><i class="fa-solid fa-circle-arrow-up"></i> <a href="#"></a
+          ><i class="fa-solid fa-circle-user"></i>
+        </div>
+      </div>
+      <nav class="header-left fixed box" id="menu">
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Bibliothèque</a></li>
+          <li><a href="#">Compte</a></li>
+          <li><a href="#">Vidéos</a></li>
+          <li><a href="#">Mettre en ligne</a></li>
+          <li><a href="#">Se connecter</a></li>
+          <li><a href="#">S'inscrire</a></li>
+        </ul>
+      </nav>
     </header>
     <div class="container-home -xl">
+      <div class="library-items flex wrap gap-10 flex-center-h">
         <div class="library-item flex flex-column">
-            <div class="library-video-poster">
-                <img src="/assets/images-youtube/poster/accueil facebook_640.jpg" alt="poster video">
+          <div class="library-video-poster relative">
+            <img
+              src="/assets/images-youtube/poster/accueil facebook_640.jpg"
+              alt="poster video"
+            />
+            <i class="fa-brands fa-youtube absolute center-element"></i>
+          </div>
+          <div class="library-video-meta flex flex-center-v gap-10">
+            <div class="profile-picture">
+              <img
+                src="/assets/images-youtube/profile/IMG_3188.jpg "
+                alt="photo profile"
+              />
             </div>
-            <div class="library-video-meta flex flex-center-v gap-5">
-                <div class="profile-picture">
-                    <img src="/assets/images-youtube/profile/IMG_3188.jpg " alt="photo profile">
-                </div>
-                <div class="video-meta">
-                    <div class="video-title">Cloner le réseau social facebook en partant de zéro</div>
-                    <div class="owner-video-fullname">Yves Pierre</div>
-                    <div class="video-meta-data flex">
-                        <div class="video-meta-views"> 600 vues</div>
-                        <div class="video-meta-time">Il y a 21h</div>
-                    </div>
-                </div>
+            <div class="video-meta">
+              <div class="video-title">
+                Cloner le réseau social facebook en partant de zéro
+              </div>
+              <div class="owner-video-fullname">Yves Pierre</div>
+              <div class="video-meta-data flex">
+                <div class="video-meta-views">6,1k vues</div>
+                <div class="video-meta-time">&nbsp; Il y a 21 heures</div>
+              </div>
             </div>
+          </div>
         </div>
+
+        <div class="library-item flex flex-column">
+          <div class="library-video-poster relative">
+            <img
+              src="/assets/images-youtube/poster/accueil facebook_640.jpg"
+              alt="poster video"
+            />
+            <i class="fa-brands fa-youtube absolute center-element"></i>
+          </div>
+          <div class="library-video-meta flex flex-center-v gap-10">
+            <div class="profile-picture">
+              <img
+                src="/assets/images-youtube/profile/IMG_3188.jpg "
+                alt="photo profile"
+              />
+            </div>
+            <div class="video-meta">
+              <div class="video-title">
+                Cloner le réseau social facebook en partant de zéro
+              </div>
+              <div class="owner-video-fullname">Yves Pierre</div>
+              <div class="video-meta-data flex">
+                <div class="video-meta-views">600 vues</div>
+                <div class="video-meta-time">&nbsp; Il y a 21h</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="library-item flex flex-column">
+          <div class="library-video-poster relative">
+            <img
+              src="/assets/images-youtube/poster/accueil facebook_640.jpg"
+              alt="poster video"
+            />
+            <i class="fa-brands fa-youtube absolute center-element"></i>
+          </div>
+          <div class="library-video-meta flex flex-center-v gap-10">
+            <div class="profile-picture">
+              <img
+                src="/assets/images-youtube/profile/IMG_3188.jpg "
+                alt="photo profile"
+              />
+            </div>
+            <div class="video-meta">
+              <div class="video-title">
+                Cloner le réseau social facebook en partant de zéro
+              </div>
+              <div class="owner-video-fullname">Yves Pierre</div>
+              <div class="video-meta-data flex">
+                <div class="video-meta-views">600 vues</div>
+                <div class="video-meta-time">&nbsp; Il y a 21h</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="library-item flex flex-column">
+          <div class="library-video-poster relative">
+            <img
+              src="/assets/images-youtube/poster/accueil facebook_640.jpg"
+              alt="poster video"
+            />
+            <i class="fa-brands fa-youtube absolute center-element"></i>
+          </div>
+          <div class="library-video-meta flex flex-center-v gap-10">
+            <div class="profile-picture">
+              <img
+                src="/assets/images-youtube/profile/IMG_3188.jpg "
+                alt="photo profile"
+              />
+            </div>
+            <div class="video-meta">
+              <div class="video-title">
+                Cloner le réseau social facebook en partant de zéro
+              </div>
+              <div class="owner-video-fullname">Yves Pierre</div>
+              <div class="video-meta-data flex">
+                <div class="video-meta-views">600 vues</div>
+                <div class="video-meta-time">&nbsp; Il y a 21h</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="library-item flex flex-column">
+          <div class="library-video-poster relative">
+            <img
+              src="/assets/images-youtube/poster/accueil facebook_640.jpg"
+              alt="poster video"
+            />
+            <i class="fa-brands fa-youtube absolute center-element"></i>
+          </div>
+          <div class="library-video-meta flex flex-center-v gap-10">
+            <div class="profile-picture">
+              <img
+                src="/assets/images-youtube/profile/IMG_3188.jpg "
+                alt="photo profile"
+              />
+            </div>
+            <div class="video-meta">
+              <div class="video-title">
+                Cloner le réseau social facebook en partant de zéro
+              </div>
+              <div class="owner-video-fullname">Yves Pierre</div>
+              <div class="video-meta-data flex">
+                <div class="video-meta-views">6,1k vues</div>
+                <div class="video-meta-time">&nbsp; Il y a 21 heures</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="library-item flex flex-column">
+          <div class="library-video-poster relative">
+            <img
+              src="/assets/images-youtube/poster/accueil facebook_640.jpg"
+              alt="poster video"
+            />
+            <i class="fa-brands fa-youtube absolute center-element"></i>
+          </div>
+          <div class="library-video-meta flex flex-center-v gap-10">
+            <div class="profile-picture">
+              <img
+                src="/assets/images-youtube/profile/IMG_3188.jpg "
+                alt="photo profile"
+              />
+            </div>
+            <div class="video-meta">
+              <div class="video-title">
+                Cloner le réseau social facebook en partant de zéro
+              </div>
+              <div class="owner-video-fullname">Yves Pierre</div>
+              <div class="video-meta-data flex">
+                <div class="video-meta-views">6,1k vues</div>
+                <div class="video-meta-time">&nbsp; Il y a 21 heures</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="library-item flex flex-column">
+            <div class="library-video-poster relative">
+              <img
+                src="/assets/images-youtube/poster/accueil facebook_640.jpg"
+                alt="poster video"
+              />
+              <i class="fa-brands fa-youtube absolute center-element"></i>
+            </div>
+            <div class="library-video-meta flex flex-center-v gap-10">
+              <div class="profile-picture">
+                <img
+                  src="/assets/images-youtube/profile/IMG_3188.jpg "
+                  alt="photo profile"
+                />
+              </div>
+              <div class="video-meta">
+                <div class="video-title">
+                  Cloner le réseau social facebook en partant de zéro
+                </div>
+                <div class="owner-video-fullname">Yves Pierre</div>
+                <div class="video-meta-data flex">
+                  <div class="video-meta-views">6,1k vues</div>
+                  <div class="video-meta-time">&nbsp; Il y a 21 heures</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="library-item flex flex-column">
+            <div class="library-video-poster relative">
+              <img
+                src="/assets/images-youtube/poster/accueil facebook_640.jpg"
+                alt="poster video"
+              />
+              <i class="fa-brands fa-youtube absolute center-element"></i>
+            </div>
+            <div class="library-video-meta flex flex-center-v gap-10">
+              <div class="profile-picture">
+                <img
+                  src="/assets/images-youtube/profile/IMG_3188.jpg "
+                  alt="photo profile"
+                />
+              </div>
+              <div class="video-meta">
+                <div class="video-title">
+                  Cloner le réseau social facebook en partant de zéro
+                </div>
+                <div class="owner-video-fullname">Yves Pierre</div>
+                <div class="video-meta-data flex">
+                  <div class="video-meta-views">6,1k vues</div>
+                  <div class="video-meta-time">&nbsp; Il y a 21 heures</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="library-item flex flex-column">
+            <div class="library-video-poster relative">
+              <img
+                src="/assets/images-youtube/poster/accueil facebook_640.jpg"
+                alt="poster video"
+              />
+              <i class="fa-brands fa-youtube absolute center-element"></i>
+            </div>
+            <div class="library-video-meta flex flex-center-v gap-10">
+              <div class="profile-picture">
+                <img
+                  src="/assets/images-youtube/profile/IMG_3188.jpg "
+                  alt="photo profile"
+                />
+              </div>
+              <div class="video-meta">
+                <div class="video-title">
+                  Cloner le réseau social facebook en partant de zéro
+                </div>
+                <div class="owner-video-fullname">Yves Pierre</div>
+                <div class="video-meta-data flex">
+                  <div class="video-meta-views">6,1k vues</div>
+                  <div class="video-meta-time">&nbsp; Il y a 21 heures</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
     </div>
     <footer>FOOTER</footer>
     <script src="/assets/js/script.js "></script>
