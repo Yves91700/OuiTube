@@ -46,17 +46,17 @@ body{
 }
 
 .gap-5{
-    gap: 5;
+    gap: 5px;
 }
 
 .gap-10{
-    gap: 10;
+    gap: 10px;
 }
 .gap-15{
-    gap: 15;
+    gap: 15px;
 }
 .gap-20{
-    gap:20;
+    gap:20px;
 }
 
 input, select, textarea{
@@ -99,4 +99,29 @@ i{
 
 .absolute{
     position: absolute;
+}
+.profile-picture img{
+    width: 50px;
+    border-radius: 50px;
+}
+/******** class pour avoir 80% de la largeur ******/
+[class$="-xl"]{
+    width: 80%;
+    margin:20px auto;
+}
+@media screen and (max-width: 900px) {
+    [class$="-xl"]{
+        width: 90%;
+        margin:20px auto; 
+    }
+}     
+
+        
+
+@media screen and (max-width: 650px) {
+     
+    [class$="-xl"]{
+        width: 95%;
+        margin:20px auto;
+}
 }
