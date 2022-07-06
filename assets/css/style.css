@@ -1,3 +1,8 @@
+header{
+    top:0;
+    z-index: 9999;
+    background-color: white;
+}
 header .header-icon  {
     padding-left: 10px;
 }
@@ -22,6 +27,14 @@ header .header-top-center input{
 }
 header .header-top-right i{
     font-size: 1.8rem;
+}
+@media  screen and ( max-width:600px) {
+    header .header-top-right i{
+        font-size: 1.5rem;   
+    }
+    header .header-top-center input{
+        font-size: 0.95rem;
+    }
 }
 
 header .header-top-right i:hover{

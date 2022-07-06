@@ -103,8 +103,12 @@ i {
   box-shadow: 0px 4px 8px rgb(0 0 0/10%), 0px 12px 18px rgb(0 0 0/10%);
 }
 .fixed {
-  position: fixed;
-}
+    position: fixed;
+  }
+
+  .sticky {
+    position: sticky;
+  }
 .relative {
   position: relative;
 }
@@ -150,14 +154,20 @@ i {
   cursor: pointer;
   transform: scale(1.2);
 }
+@media screen and (max-width: 1550px) {
+    
+    [class$="-m"] {
+      width: 95%;
+      
+    }
+  }
 @media screen and (max-width: 900px) {
   [class$="-xl"] {
-    width: 90%;
-    margin: 20px auto;
+    width: 90%; 
   }
+
   [class$="-m"] {
     width: 80%;
-    margin: 20px auto;
   }
 }
 

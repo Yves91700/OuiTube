@@ -1,49 +1,69 @@
-footer{
-    background-color: #181818;
-    color: white;
+footer {
+  background-color: #181818;
+  color: white;
 }
-.footer-bottom{
-    background-color: #1f1f1f;
-    height: 50px;
-    text-align: center;
-}
-
-.footer-header i{
-    font-size: 3.5rem;
-    color: red;
-}
-.footer-header h5{
-    font-size: 2.5rem;
+.footer-bottom {
+  background-color: #1f1f1f;
+  height: 50px;
+  text-align: center;
 }
 
-ul li a{
-    display: block;
-    color: white;
-    font-size: 1rem;
-    padding: 5px 0px;
+.footer-header i {
+  font-size: 3.5rem;
+  color: red;
+}
+.footer-header h5 {
+  font-size: 2.5rem;
 }
 
-.menu-list-item h5{
-    font-size: 1.5rem;
-}
-.social-icon ul{
-    height: 60px;
-}
-
-.social-icon ul li i{
-    font-size: 1.5rem;
-    background-color: #343a40;
-    padding: 10px;
-    border-radius: 50px;
-}
-.app-icon img{
-    width: 120px;
-    
-    
+footer ul li a {
+  display: block;
+  color: white;
+  font-size: 1rem;
+  padding: 5px 0px;
 }
 
-.footer-social-icon{
-    margin: 10px 0px;
+.menu-list-item h5 {
+  font-size: 1.5rem;
+}
+.social-icon ul {
+  height: 60px;
 }
 
+.social-icon ul li i {
+  font-size: 1.5rem;
+  background-color: #343a40;
+  padding: 10px;
+  border-radius: 50px;
+}
+.app-icon img {
+  width: 120px;
+}
 
+.footer-social-icon {
+  margin: 10px 0px;
+}
+
+@media screen and (max-width:1200px) {
+    .menu-list-item h5 {
+        font-size: 1.2rem;
+      }     
+}
+@media screen and (max-width:600px) {
+    .footer-menu-lists  {
+         flex-direction: column; 
+      } 
+      .menu-list-item {
+          width: 90%;
+          text-align: center;
+      }  
+      .footer-social-icon {
+          flex-direction: column;
+      } 
+      .footer-header h5 {
+          font-size: 1.3rem;
+      }
+      .footer-header i {
+        font-size: 1.5rem;
+    }
+}
