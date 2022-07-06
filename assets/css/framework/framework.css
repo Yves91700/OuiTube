@@ -26,6 +26,10 @@ body {
 .flex-center-v {
   align-items: center;
 }
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
 .text-center {
   text-align: center;
 }
@@ -83,7 +87,9 @@ ul {
   margin: 0;
   padding: 0;
   cursor: pointer;
+  list-style: none;
 }
+
 button {
   cursor: pointer;
 }
@@ -112,9 +118,14 @@ i {
 }
 /******** class pour avoir 80% de la largeur ******/
 [class$="-xl"] {
-  width: 80%;
+  width: 89%;
   margin: 20px auto;
 }
+
+[class$="-m"] {
+    width: 70%;
+    margin: 20px auto;
+  }
 /************* pour centrer icon youtube sur poster img*********/
 .center-element {
   top: 50%;
@@ -144,10 +155,18 @@ i {
     width: 90%;
     margin: 20px auto;
   }
+  [class$="-m"] {
+    width: 80%;
+    margin: 20px auto;
+  }
 }
 
 @media screen and (max-width: 650px) {
   [class$="-xl"] {
+    width: 95%;
+    margin: 20px auto;
+  }
+  [class$="-m"] {
     width: 95%;
     margin: 20px auto;
   }
