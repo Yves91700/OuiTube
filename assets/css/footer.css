@@ -9,11 +9,11 @@ footer {
 }
 
 .footer-header i {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: red;
 }
 .footer-header h5 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 footer ul li a {
@@ -24,7 +24,7 @@ footer ul li a {
 }
 
 .menu-list-item h5 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .social-icon ul {
   height: 60px;
